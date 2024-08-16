@@ -1,0 +1,31 @@
+name: scotiabank_app
+description: A Flutter banking application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.1+2
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.0
+  flutter_pw_validator: ^1.2.0
+  fl_chart: ^0.40.0 # Updated for the latest stable API
+  flutter_animate: ^3.0.1 # For additional animations
+  country_picker: ^2.0.16 # For country selection functionality
+  http: ^0.13.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/profile_picture.jpg
+    - assets/images/scotiabank_icon.png
+    - assets/images/scotiabank_logo.png
